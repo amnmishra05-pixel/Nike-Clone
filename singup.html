@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SingIn. Nike IN</title>
+    <style>
+        .signin{
+            margin-top: 2em;
+            font-family: arial,'Anton','Oswald','Roboto', sans-serif; 
+
+        }
+        .logos, .wlccontent{
+            left: 30%;
+            right: 50%;
+            position: relative;
+        }
+        .logos img{
+            margin: 0 1em 1em 0;
+        }
+        .wlccontent h1{
+            font-size: 2em;
+        }
+        .option{
+            display: flex;
+        }
+        .option p, .lastcontent p{
+            margin: 2em 1em 0 0;
+            font-size: 1.1em;
+        }
+        .option p:last-child{
+            color: #555;
+            text-decoration: underline;
+        }
+        .wlccontent input{
+            padding: 20px 20px;
+            width: 520px;
+            border-radius: 10px;
+            border: 1px solid #555;
+            margin: 1em 0;
+            font-size: 1.2em;
+        }
+        .lastcontent span{
+            color: #555;
+            text-decoration: underline;
+        }
+        .wlccontent button{
+            padding: 15px 30px;
+            border-radius: 30px;
+            border: none;
+            font-weight: 600;
+            font-size: 15px;
+            color: #fff;
+            background-color: #000;
+            margin:2em 0 0 30em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="signin">
+        <div class="logos">
+            <img src="assets/nike.png" alt="">
+            <img src="assets/jordan.png" alt="">
+        </div>
+        <div class="wlccontent">
+            <h1>Enter your email to join us or sign in.</h1>
+            <div class="option">
+            <p>India</p>
+            <p>Change</p>
+            </div>
+            <Form method = "post">
+                <input type="text" id="" placeholder="Name" name="username"> <br>
+                <input type="text" id="" placeholder="Gender" name="gender"> <br>
+                <input type="text" id="" placeholder="Address" name="add"> <br>
+                <input type="email" name="" id="" placeholder="Email" name="mail"> <br>
+                <input type="password" name="" id="" placeholder="Password" name="pass"> 
+
+            <div class="lastcontent">
+
+            <p>Have an account? <a href="signin.html"> Sing In Here</a></p>
+            <p>By continuing, I agree to Nike's <span>Privacy Policy. </span>and <span>Term of Use.</span></p>
+            </div>
+            <input type="submit" class="continuebtn" name="log" value="Continue">
+        </div>
+        </Form>
+    </div>
+</body>
+</html>
+
+<!-- <?php
+    if(isset($_POST["log"]))
+    {
+        $usern = $_POST ["username"];
+        $userg = $_POST ["gender"];
+        $useradd = $_POST ["add"];
+        $usermail = $_POST ["mail"];
+        $userpass = $_POST ["pass"];
+    }
+
+    $conn = new mysqli ("localhost", "root", "", "nike");
+
+    $query = "insert into singup(name, gender, address, email, password) values ('$usern', '$userg', '$useradd', '$usermail', '$userpass')";
+
+    $conn -> query($query);
+
+?> -->
+
+

@@ -1,0 +1,1111 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial,'Anton','Oswald','Roboto', sans-serif; 
+}
+body{
+    width: 100%;
+}
+a{
+    color: #000;
+    text-decoration:none;
+}
+/* Top head nav */
+nav{
+    background-color: #f5f5f5;
+    padding: 8px 0px;
+}
+nav a{
+    width: 100%;
+    margin-left: .5em;
+    font-size: 12px;
+    color: #222;
+    font-weight: 700;
+}
+nav img{
+    margin: -4px 57em -4px 3em;
+    cursor: pointer;
+}
+nav img:hover{
+    opacity: .5;
+}
+/* Top head nav end */
+/* 2nd main navigarion bar */
+.navbar{
+    background-color: #fff;
+    padding: 10px 0;
+    align-self: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navlist{
+    align-items: center;
+    top: 1em;
+}
+.navbar a{
+    width: 100%;
+    color: #313131;
+    font-size: 15.5px;
+    font-weight: 600;
+    padding: 0 7px 20px 7px;
+}
+.navlist{
+    position: absolute;
+}
+.nikelogo{
+    margin: 0 17em 0 2.5em;
+}
+.fa-gift,.fa-heart,.fa-cart-shopping{
+    margin:0 14px;
+    font-size: 1.2em;
+}
+.fa-magnifying-glass{
+    font-size: 1em;
+    z-index: 100;
+    position: relative;
+}
+.nikelogo img{
+    margin-bottom: -5px;
+    width: 70px;
+    /* align-items: center; */
+}
+.nikelogo img:hover{
+    opacity: .5;
+}
+.search, .nikelogo{
+    display: inline-block;
+}
+.search{
+    /* background-color: #eee; */
+    /* padding: 10px; */
+    /* width: 200px; */
+    /* border-radius: 20px; */
+    align-items: center;
+    margin:0 1.5rem 0 4rem;
+    display: inline;
+}
+.search >input{
+    margin:0 1.5rem 0 -2rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #eee;
+    padding: 10px 35px;
+    font-size: 17px;
+    width: 150px;
+}
+.fa-bars{
+    display: none;
+}
+/* 2nd main navigarion bar end */
+/* Offer text slider */
+.slider{
+    background-color: #eee;
+    white-space:nowrap;
+    padding: 10px 0;
+    text-align: center;
+}
+.slider a{
+    width: 100%;
+    display: block;
+}
+.offer1{
+    font-size: 17px;
+    color: #111;
+    margin-bottom: 8px;
+}
+.offer2{
+    color: #111;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration:underline;
+}
+/* Offer text slider end */
+/* Headimage */
+.imghead{
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.imghead h1{
+    font-size: 4em;
+    margin: .8em 0 10px 0;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-weight: 900;
+    font-family: fantasy;
+}
+.imghead p{
+    font-size: 1.2em;
+    line-height: 25px;
+}
+.imghead .btn,.trend_text .btn{
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    margin: 1.5em .2em;
+    cursor: pointer;
+}
+.imghead .btn:hover ,.trend_text .btn:hover{
+    background-color: #555;
+}
+/* Headimage end */
+/* Featured section */
+.featuredsection{
+    margin: 2em auto;
+    padding: 0 50px;
+    cursor: pointer;
+}
+.featured{
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0  1.5em 0;
+    font-size: 25px;
+    color: #111;
+}
+.featured p a{
+    font-size: 18px;
+}
+.collection{
+    width: 100%;
+    display: flex;
+}
+.collection img{
+    width: 400px;
+    height: 490px;
+}
+.collection1{
+    margin-right: .5em;
+}
+.collection1 p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1.5em 0;
+}
+/* Featured section end */
+/* Trending section */
+.trendig{
+    padding: 0 50px;
+}
+.trendig .trend{
+    font-size: 25px;
+    margin: 3em 0 1.5em 0;
+}
+.trendig .trend_text{
+    text-align: center;
+    font-size: 2.3em;
+    margin: 1em 0;
+}
+.trend_text h1{
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    font-family: fantasy;
+}
+.trendig .trend_text p{
+    font-size: .45em;
+    margin: 1em 0;
+    line-height: 25px;
+}
+/* Trending section end */
+/* More Running shoes */
+.more{
+    overflow: auto;
+}
+#run img{
+    width: 400px;
+    height: 390px;
+}
+#run p{
+    font-size: 1em;
+    margin-top: .7em;
+    font-weight: 600;
+}
+#run p:nth-child(2){
+    margin-top: 1.5em;
+}
+#run p:nth-child(3){
+    color: #777;
+    margin-bottom: 1.5em;
+}
+#run{
+    margin: 0 .5em 2em .5em;
+}
+/* More Running shoes end */
+/* Always iconic */
+#iconic img{
+    width: 300px;
+    height: 280px;
+}
+#iconic p{
+    font-size: 1.1em;
+    margin-top: .5em;
+}
+#iconic{
+    margin: 0em .5em;
+}
+.featuredsection a .air{
+    text-align: center;
+    margin-top: 1em;
+    color: #444;
+    font-size: 1.2em;
+}
+/* Always iconic end */
+/* Shop by Sport */
+#sport img{
+    width: 100%;
+    height: 300px;
+}
+#sport{
+    margin: 0em .5em;
+}
+#sport p:nth-child(2){
+    font-size: 1.3em;
+    margin: .5em 0;
+}
+#sport p:nth-child(3){
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+#sport .underline{
+    text-decoration: underline;
+    font-weight: 600;
+    color: #222;
+}
+/* Shop by Sport end */
+/* The Essentials */
+.essentials1,.essentials2,.essentials3{
+    width: 400px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-right: 1em;
+}
+.essentials1{
+    background-image: url(assets/nike-just-do-it\ 11.jpeg);
+}
+.essentials2{
+    background-image: url(assets/nike-just-do-it\ 12.jpeg);
+}
+.essentials3{
+    background-image: url(assets/nike-just-do-it\ 13.jpeg);
+}
+.buttn{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    margin: 27em 0 0 3em;
+    font-weight: 600;
+    font-size: 15px;
+}
+.buttn:hover{
+    background-color: #333;
+    color: #fff;
+}
+/* The Essentials end */
+/* Susggestion link */
+.tabl{
+    font-size: 1.05em;
+    font-weight: 600;
+    color: #999;
+    margin: 3em 0;
+    cursor: pointer;
+    height: 10em;
+    overflow: hidden;
+}
+.tabl td a{
+    color: #999;
+}
+.tabl:hover{
+    height: auto;
+}
+.trhead{
+    color: #222;
+    font-size: .9em;
+}
+.tabl table td{
+    border: 0px solid #000;
+    padding: 6px 80px;
+}
+.tabl td:hover{
+    color: #333;
+}
+.tabl td a:hover{
+    color: #333;
+}
+/* Susggestion link end */
+/* Footer */
+footer{
+    background-color: #111;
+    color: #fff;
+}
+.main_footer{
+    display: flex;
+    position: relative;
+    padding: 0 50px;
+    font-size: .8em;
+    cursor: pointer;
+}
+.side_footer{
+    margin-top: 3.5em;
+}
+.side_footer a{
+    color: #fff;
+}
+.side_footer p{
+    margin: 0 10em 3em 0;
+    font-size: .9em;
+}
+.side_footer2 .footer_head{
+    color: #fff;
+}
+.side_footer2{
+    margin-top: 3em;
+    color: #555;
+    font-weight: 600;
+}
+.side_footer2 td{
+    padding: .5em 5em .5em 0;
+}
+.side_footer2 td:hover{
+    color: #fff;
+}
+.side_footer3{  
+    margin-left: 25em;  
+}
+.fa-brands{
+    background-color: #555;
+    color: #111;
+    font-size: 1.2em;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    margin: 3em 1em 0 0;
+}
+.fa-brands:hover{
+    background-color: #fff;
+    color: #000;
+}
+.bottem_footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3em;
+    font-size: .8em;
+}
+.bottem_footer a{
+    color: #777;
+    margin-right: 1em;
+    cursor: pointer;
+}
+.bottem_footer p{
+    margin: 3em 0 1em 0;
+    color: #777;
+}
+.bottem_footer span{
+    color: #fff;
+    margin-right: 3em;
+    cursor: pointer;
+}
+.fa-location-dot{
+    color: #fff;
+    margin-right: .7em;
+    cursor: pointer;
+}
+.bottem_footer p a:hover{
+    color: #fff;
+}
+/* Footer end */
+/* Dropdwon Manubar */
+.navigation .table{
+    display: none;
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    padding: 2em 15%;
+    margin-top: .7em;
+    left: 0;
+    font-size: 14px;
+    color: #777;
+    font-weight: 700;
+}
+.table td a{
+    color: #777;
+    font-size: 14px;
+    /* margin-left: -.5em; */
+}
+#new_men .table ,#new_women .table, #new_kid .table{
+    height: 45em;
+}
+.table td:hover{
+    color: #333;
+}
+.table td a:hover{
+    color: #333;
+}
+.new_head{
+    color: #333;
+    font-size: 1.2em;
+}
+#new_featured:hover .table,#new_men:hover .table,#new_women:hover .table,#new_kid:hover .table,#new_sale:hover .table{
+    display: block;
+    position: absolute;
+}
+#new_featured:hover,#new_men:hover,#new_women:hover,#new_kid:hover,#new_sale:hover,#new_customise:hover,#new_gift:hover{
+    border-bottom: 2px solid #000;
+    z-index: 100;
+}
+.table td{
+    padding: 5px 20px;
+}
+.table .new_head td{
+    padding-bottom: 20px;
+    /* border: 1px solid #000; */
+}
+#new_kid .table td{
+    padding: 5px 10px;
+}
+#new_sale .table td{
+    padding: 5px 60px;
+}
+/* Dropdwon Manubar end */
+
+
+
+
+
+
+
+
+/* Sub navigation bar */
+.sub_navbar{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    /* top: 0; */
+    cursor: pointer;
+    /* position: relative; */
+}
+.sub_navbar h1{
+    margin-right: 13em;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+.sub_navbar a{
+    margin-left: 2em;
+    font-weight: 600;
+    color: #333;
+}
+/* Sub navigation bar end */
+/* Video adding */
+.video video{
+    width: 100%;
+    height: 100%;
+}
+.video{
+    /* margin: 2em 4em; */
+    font-size: 13px;
+}
+.vid{
+    margin: 0 0;
+}
+/* Video adding end */
+/* Member Shop */
+.member1,.member2,.holiday4,.holiday5{
+    width: 50%;
+    height: 550px;
+    background-repeat: no-repeat;
+    margin-right: 1em;
+}
+.member1{
+    background-image: url(assets/nike-by-you-custom-shoes\ 1.jpg);
+}
+.member2{
+    background-image: url(assets/nike-by-you-custom-shoes\ 2.jpeg);
+}
+.bttn{
+    font-size: 1.4em;
+    margin: 19em 0 0 2.5em;
+    font-weight: 600;
+}
+.btnn{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    margin: 1em 0 0 3em;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;;
+}
+.btnn:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* Member Shop End  */
+/* NikeByYou */
+.more{
+    overflow: auto;
+}
+.more1{
+    margin-bottom: 10em;
+}
+.byyou img{
+    width: 370px;
+    height: 450px;
+}
+.byyou p{
+    font-size: 1.3em;
+    margin-top: 2em;
+}
+.byyou p a{
+    font-size: .7em;
+    margin-top: 1.5em;
+    border-bottom: 1px solid #000;
+    color: #444;
+    font-weight: 600;
+}
+.byyou{
+    margin: 0 .5em 2em .5em;
+}
+/* NikeByYou End */
+/* GIFT PAGE AND SOME STYLING OF COUSTOM PAGE */
+.banner{
+    margin: 5em 0;
+}
+.holiday1{
+    background-image: url(assets/gifts-that-move-you-nike-com\ 6.jpeg);
+}
+.holiday2{
+    background-image: url(assets/gifts-that-move-you-nike-com\ 7.jpeg);
+}
+.holiday3{
+    background-image: url(assets/gifts-that-move-you-nike-com\ 8.jpeg);
+}
+.holiday4{
+    background-image: url(assets/gifts-that-move-you-nike-com\ 9.jpeg);
+}
+.holiday5{
+    background-image: url(assets/gifts-that-move-you-nike-com\ 10.jpeg);
+}
+.holiday1,.holiday2,.holiday3{
+    width: 100%;
+    background-size: cover;
+    margin: 0 1em 0 0;
+}
+.holiday img{
+    width: 500px;
+    height: 420px;
+}
+.holiday1 .bbt,.holiday2 .bbt,.holiday3 .bbt{
+    color: #222;
+}
+
+.buut{
+    color: #222;
+    background-color: #fff;
+}
+.join{
+    margin: 9em 0 -10em 0;
+}
+.bbt{
+    color: #fff;
+    line-height: 2em;
+    margin-left: 3em;
+    font-weight: 600;  
+}
+.join1 p:nth-child(1),.join2 p:nth-child(1){
+    margin-top: 5em;
+    font-size: 1.4em;
+}
+.join1{
+    background-image: url(assets/gifts-that-move-you-nike-com\ 15.jpeg);
+}
+.join2{
+    background-image: url(assets/gifts-that-move-you-nike-com\ 16.jpg);
+}
+.us{
+    margin: 0em 0 2em 2em;
+}
+.banner1{
+    padding: 0 50px;
+    margin-bottom: 2em;
+}
+.banner2{
+    background-image: url(assets/gifts-that-move-you-nike-com\ 17.jpg);
+    background-size: cover;
+}
+.banner2 h1{
+    line-height: 1.1em;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* More To Explor */
+/* MEN PAGE SECTION */
+.toomore{
+    overflow: auto;
+}
+.explorto{
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 400px;
+}
+.explorto p{
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 600;
+    padding: 12em 4em 0 4em;
+}
+.explorimg1{
+    background-image: url(assets/men-s-shoes-clothing-accessories\ 2.jpg);
+    background-size: cover;
+    margin-right: .5em;
+    width: 400px;
+}
+.explorimg2{
+    background-image: url(assets/men-s-shoes-clothing-accessories\ 3.jpg);
+    background-size: cover;
+    margin-right: .5em;
+    width: 400px;
+}
+.explorimg3{
+    background-image: url(assets/men-s-shoes-clothing-accessories\ 1.jpeg);
+    background-size: cover;
+    margin-right: .5em;
+    width: 400px;
+}
+.explorimg4{
+    background-image: url(assets/men-s-shoes-clothing-accessories\ 4.jpeg);
+    background-size: cover;
+    margin-right: .5em;
+    width: 400px;
+}
+.bt{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    margin: 1em 0 0 5em;
+    font-size: .9em;
+    font-weight: 600;
+}
+.roam{
+    margin-top: 2.5em;
+}
+.bt:hover{
+    background-color: #ccc;
+}
+/* More To Explor End */
+.shopthe{
+    overflow: auto;
+}
+#shopthe1 img{
+    width: 400px;
+    height: 300px;
+    margin-right: .5em;
+}
+#shopthe1 p{
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 1em 0 2em 0;
+}
+
+.pic1{
+    background-image: url(assets/men-s-shoes-clothing-accessories\ 12.jpeg);
+}
+.pic2{
+    background-image: url(assets/men-s-shoes-clothing-accessories\ 13.jpeg);
+}
+.pic3{
+    background-image: url(assets/men-s-shoes-clothing-accessories\ 14.jpeg);
+}
+.toexplor{
+    height: 500px;
+}
+.toexplor p{
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 600;
+    padding: .5em 4em 0 2em;
+}
+.pic h5{
+    color: #fff;
+    font-weight: 600;
+    padding: 25em 4em 0em 3em;
+}
+.ttn{
+    margin-left: 2em;
+}
+/* MEN PAGE SECTION END */
+
+
+
+
+
+/* SALE PAGE SECTION */
+.container{
+    padding: 0 55px ;
+    z-index: 2;
+}
+.sale_filter{   
+    position: sticky;
+    top: 0;
+    margin-top:4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5px;
+    background-color: #fff;
+    z-index: 1;
+}
+.filter{
+    display: flex;
+    align-items: center;
+}
+.filter p{
+    margin:0 .4em 0 2em;
+    font-size: 17px;
+}
+.cat_pro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+.categories{
+    width: 18%;
+    padding: 2px;
+    overflow: auto;
+    height: 50em;
+    position: sticky;
+    top: 4em;
+}
+.categories p{
+    font-size: 15px;
+    font-weight:600;
+    color: #333;
+    padding-top: 14px;
+    text-wrap: wrap;
+}
+.category_name{
+    cursor: pointer;
+}
+.category_name p:hover{
+    color: #888;
+}
+.colourbox{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 ;
+    text-align: center;
+}
+.colourbox div{
+    margin: 20px 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    left: 50%;
+    right: 50%;
+}
+.colourbox p{
+    font-size: 12px;
+    margin: 30px -10px;
+    text-align: center;
+}
+.purple{
+    background-color: purple;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.blue{
+    background-color: blue;
+}
+.white{
+    background-color: white;
+    border: 1px solid #ddd;
+}
+.brown{
+    background-color: brown;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.grey{
+    background-color: grey;
+}
+.pink{
+    background-color: pink;
+}
+.skyblue{
+    background-color:skyblue;
+}
+
+
+
+
+
+
+.products{
+    width: 80%;
+}
+.productsection{
+    cursor: default;
+}
+.collection_cat{
+    display: flex;
+    flex-wrap: wrap;
+}
+.run img{
+    width: 302px;
+    height: 320px;
+    margin-left: 1em;
+}
+.prod p{
+    text-wrap: wrap;
+    width: 290px;
+    margin: 8px 0 0 1em;
+    color: #999;
+    font-weight: 550;
+    font-size: 16px;
+}
+.prod p:nth-child(2){
+    margin-top: 1em;
+    font-weight: 600;
+    color: #000;
+}
+.prod p:last-child{
+    margin: 15px  0 5em 1em;
+}
+.prod span{
+    color: #000;
+}
+.related_categories{
+    margin-bottom: 5em ;
+}
+.related_categories button{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin: 1em .5em 0 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.related_categories button:hover{
+    background-color: #eee;
+}
+/* SALE PAGE SECTION END */
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE SECTION START */
+@media screen and (max-width: 800px) {
+    nav{
+        display: none;
+    }
+    .navigation input,.navlist{
+        display: none;
+    }
+    .navbar a{
+        float: right;
+        display: none;
+        justify-content: end;
+        position: relative;
+    }
+    .navbar{
+        padding: 10px 0;
+        margin: 0;
+        position: relative;
+    }
+    .navbar i{
+        position: relative;
+        font-size: 1.2em;
+        margin-top: -.5em;
+        padding-bottom: .2em;
+    }
+    .navbar .nike{
+        display: flex;
+        padding: 0;
+    }
+    .navbar:hover .navigation a{
+        display: flex;
+    }
+    .navbar #new_featured{
+        margin-top: 2em;
+    }
+    .navbar .table{
+        margin: 0em 5em 0 0;
+        padding: 1px 0 0 20px;
+        font-size: 12px;
+        border: 1px solid #000;
+        width: 550px;
+    }
+    .table td{
+        padding:0;
+        margin: 0;
+    }
+    .table #new_featured{
+        padding: 0;
+        margin: 0;
+    }
+    .table .new_head{
+        padding:1em;
+    }
+    #new_kid .table td{
+        padding: 0;
+    }
+    #new_sale .table td{
+        padding:0;
+    }
+    .navbar .nikeimg{
+        width: 100%px;
+        padding: 0;
+    }
+    .fa-bars{
+        display: inline;
+        padding: 10px 0 10px 20px;
+        cursor: pointer;
+    }
+    #sport{
+        margin: 0;
+    }
+    .featuredsection{
+        padding: 0 10px;
+        overflow: auto;
+    }
+    .collection1 img{
+        width: 250px;
+        height: 300px;
+    }
+    .collection1 p{
+        font-size: 25px;
+    }
+    .trendig{
+        padding: 0 10px;
+    }
+    .trendig img{
+        width: 100%;
+        height: 100%;
+    }
+    .trend_text h1{
+        font-size: .8em;
+    }
+    .imghead img{
+        width: 100%;
+    }
+    .imghead h1,.trend_text h1{
+        font-size: 1.5em;
+    }
+    .imghead p{
+        font-size: 14px;
+    }
+    .imghead .btn,.trendig .btn{
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    .more #run img{
+        width: 200px;
+        height: 200px;
+    }
+    #run p{
+        font-size: 15px;
+    }
+    .shopby{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .collection p{
+        font-size: 12px;
+        width: 150px;
+    }
+    #sport img{
+        width: 200px;
+        height: 200px;
+        margin-right: .5em;
+    }
+    #sport .underline p{
+        margin-bottom: 1em;
+    }
+    .essentials{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .essentials1,.essentials2,.essentials3{
+        padding: 0;
+        margin: 0;
+    }
+    .tabl{
+        display: none;
+    }
+    footer{
+        padding: 0;
+        margin: 0;
+    }
+    .main_footer{
+        width: 100%;
+        padding: 0 0;
+        /* display: block; */
+        position: relative;
+    }
+    .side_footer{
+        padding: 1em;
+        margin: 0;
+        width: 80px;
+    }
+    .side_footer3 {
+        margin: 0em;
+        padding: 0;
+        display: block;
+        position: relative;
+    }
+    .side_footer3 i{
+        margin: 1em;
+    }
+    .side_footer2{
+        margin: 0;
+        padding: 0;
+    }
+    .side_footer2 p{
+        margin: 0;
+        padding: 0;
+    }
+    .side_footer2 td{
+        padding: .5em 2em 0 0;
+    }
+    .bottem_footer{
+        margin: 1em 0 0 1em;
+    }
+    .guide{
+        display: flex;
+    }
+}
+
+@media (min-width:320px){
+    
+    
+}
+
+/* RESPONSIVE SECTION END */
